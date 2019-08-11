@@ -9,4 +9,4 @@
   include_tasks: "3-install.yml"
 
 - name: PHP | Installing PHP Modules
-  include_tasks: "4-security.yml"
+  include_tasks: "4-php-modules.yml"
