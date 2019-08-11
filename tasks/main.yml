@@ -1,0 +1,12 @@
+---
+- name: PHP | Running pre-setup of packages
+  include_tasks: "1-initial.yml"
+
+- name: PHP | Setting Up Repository
+  include_tasks: "2-repository.yml"
+
+- name: PHP | Installing PHP
+  include_tasks: "3-install.yml"
+
+- name: PHP | Installing PHP Modules
+  include_tasks: "4-security.yml"

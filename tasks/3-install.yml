@@ -1,0 +1,10 @@
+---
+- name: install.yml | Installing PHP{{ php_version }}
+  apt:
+    name: php{{ php_version }}
+    update_cache: true
+    autoremove: true
+    autoclean: true
+    install-recommends: false
+    policy_rc_d: "101"
+    state: present
