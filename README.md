@@ -4,17 +4,20 @@
 
 ![Description from Ansible](https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)
 
+[![GitHub release](https://img.shields.io/github/release/ubzyhd/ansible-role-php)](https://GitHub.com/ubzyhd/ansible-role-php/releases/) [![GitHub tag](https://img.shields.io/github/tag/ubzyhd/ansible-role-php)](https://GitHub.com/ubzyhd/ansible-role-php/tags/)
+
+[![HitCount](http://hits.dwyl.io/ubzyhd/ansible-role-php.svg)](http://hits.dwyl.io/ubzyhd/ansible-role-php)
 ## Contents
 
 - [Ansible Role: PHP](#ansible-role-php)
-- [Contents](#contents)
-- [Role Info & Build Status](#role-info--build-status)
-- [Supported OS's](#supported-oss)
-- [Role Variables](#role-variables)
-- [Example Playbook](#example-playbook)
-- [License](#license)
-- [Author Information](#author-information)
-- [Credits](#credits)
+  - [Contents](#contents)
+  - [Role Info & Build Status](#role-info--build-status)
+  - [Supported OS's](#supported-oss)
+  - [Role Variables](#role-variables)
+  - [Example Playbook](#example-playbook)
+  - [License](#license)
+  - [Author Information](#author-information)
+  - [Credits](#credits)
 
 ## Role Info & Build Status
 
