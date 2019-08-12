@@ -1,6 +1,6 @@
 # Ansible Role: PHP
 
-[![role: ubzyhd.php](https://img.shields.io/ansible/role/42673?color=blueviolet&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd.php)
+[![role: ubzyhd.php](https://img.shields.io/ansible/role/42673?color=blueviolet&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd/php)
 
 ![Description from Ansible](https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)
 
@@ -10,14 +10,14 @@
 ## Contents
 
 - [Ansible Role: PHP](#ansible-role-php)
-  - [Contents](#contents)
-  - [Role Info & Build Status](#role-info--build-status)
-  - [Supported OS's](#supported-oss)
-  - [Role Variables](#role-variables)
-  - [Example Playbook](#example-playbook)
-  - [License](#license)
-  - [Author Information](#author-information)
-  - [Credits](#credits)
+- [Contents](#contents)
+- [Role Info & Build Status](#role-info--build-status)
+- [Supported OS's](#supported-oss)
+- [Role Variables](#role-variables)
+- [Example Playbook](#example-playbook)
+- [License](#license)
+- [Author Information](#author-information)
+- [Credits](#credits)
 
 ## Role Info & Build Status
 
