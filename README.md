@@ -1,6 +1,6 @@
 Ansible Role: PHP
 =========
-![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/ansible/role/42673?color=blueviolet&logo=ansible&style=flat-square)
+[![role: ubzyhd.php](https://img.shields.io/ansible/role/42673?color=blueviolet&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd.php)
 
 ![](https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)
 
@@ -19,9 +19,9 @@ Role Info & Build Status
 
 |Branch             | Master | Development |
 |-------------------|--------|--------------|
-| Build Status:      | ![https://travis-ci.org/UbzyHD/ansible-role-php](https://img.shields.io/travis/UbzyHD/ansible-role-php/master?label=build&logo=travis-ci&style=flat-square)       |              |
-| Ansible Version: | ![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=red&style=flat-square&label=Minimum%20Ansible%20Version%3A&query=min_ansible_version&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)       |              |
-| Statistics:  | ![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/ansible/role/d/42673?color=blue&logo=ansible&style=flat-square)![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Quality%20Score:&query=quality_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Content%20Score%3A&query=content_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Metadata%20Score%3A&query=metadata_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)       |              |
+| Build Status:      | [![travis-ci build status](https://img.shields.io/travis/UbzyHD/ansible-role-php/master?label=build&logo=travis-ci&style=flat-square)](https://travis-ci.org/UbzyHD/ansible-role-php)       |              |
+| Ansible Version: | [![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=red&style=flat-square&label=Minimum%20Ansible%20Version%3A&query=min_ansible_version&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)       |              |
+| Statistics:  | [![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/ansible/role/d/42673?color=blue&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd.php)[![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Quality%20Score:&query=quality_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)[![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Content%20Score%3A&query=content_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)[![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Metadata%20Score%3A&query=metadata_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)       |              |
 
 Supported OS's
 ------------
