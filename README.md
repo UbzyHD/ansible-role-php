@@ -1,11 +1,13 @@
-Ansible Role: PHP
-=========
+# Ansible Role: PHP
+
 [![role: ubzyhd.php](https://img.shields.io/ansible/role/42673?color=blueviolet&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd.php)
 
-![](https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)
+![Description from Ansible](https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)
 
-Contents
-==========
+## Contents
+
+- [Ansible Role: PHP](#ansible-role-php)
+  - [Contents](#contents)
   - [Role Info & Build Status](#role-info--build-status)
   - [Supported OS's](#supported-oss)
   - [Role Variables](#role-variables)
@@ -14,27 +16,21 @@ Contents
   - [Author Information](#author-information)
   - [Credits](#credits)
 
-Role Info & Build Status
-------------
+## Role Info & Build Status
 
 |Branch             | Master | Development |
 |-------------------|--------|--------------|
 | Build Status:      | [![travis-ci build status](https://img.shields.io/travis/UbzyHD/ansible-role-php/master?label=build&logo=travis-ci&style=flat-square)](https://travis-ci.org/UbzyHD/ansible-role-php)       |              |
 | Ansible Version: | [![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=red&style=flat-square&label=Minimum%20Ansible%20Version%3A&query=min_ansible_version&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)       |              |
-| Statistics:  | [![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/ansible/role/d/42673?color=blue&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd.php)[![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Quality%20Score:&query=quality_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)[![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Content%20Score%3A&query=content_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)[![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Metadata%20Score%3A&query=metadata_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)       |              |
+| Statistics:  | [![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/ansible/role/d/42673?color=blue&logo=ansible&style=flat-square)](https://galaxy.ansible.com/ubzyhd.php)<br>[![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Quality%20Score:&query=quality_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)<br>[![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Content%20Score%3A&query=content_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)<br>[![https://galaxy.ansible.com/ubzyhd/php](https://img.shields.io/badge/dynamic/json?color=blue&logo=ansible&style=flat-square&label=Metadata%20Score%3A&query=metadata_score&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)](https://galaxy.ansible.com/ubzyhd.php)       |              |
 
-Supported OS's
-------------
+## Supported OS's
 
-* Debian:
-
+- Debian:
   - 10 - Buster
   - 9 - Jessie
 
-
-
-Role Variables
---------------
+## Role Variables
 
 All variables for this role are listed below, along with default values located at ```defaults/main.yml```
 
@@ -77,17 +73,15 @@ php_modules_install:
 
 Add and remove PHP modules as neccessary depending on your needs and setup.
 
-
-> Note: At the bottom of 
+> Note: At the bottom of
 > ```defaults/main.yml``` there is a variable lined:
->```yaml
+> ```yaml
 ># DO NOT CHANGE
 >ci_build_testing: false
->```
+> ```
 > Do not modify this or refer to it in your playbooks as this is only used for CI/CD. You can safely ignore this.
 
-Example Playbook
-----------------
+## Example Playbook
 
 An example playbook with all the variables can be found called ```example-playbook-php.yml```
 
@@ -118,20 +112,19 @@ or here:
     - ubzyhd.php
 ```
 
-License
--------
+## License
 
 MIT
 
-Author Information
-------------------
+## Author Information
+
 This role was creating by Ubzy in 2019
 
-Credits
-------------------
+## Credits
+
 Jeff Geerling:
 
-* [GitHub - geerlingguy](https://github.com/geerlingguy)
-* [Website - jeffgeerling.com](https://www.jeffgeerling.com/)
+- [GitHub - geerlingguy](https://github.com/geerlingguy)
+- [Website - jeffgeerling.com](https://www.jeffgeerling.com/)
 
 >Without using his roles as the basis for mine, it wouldn't have been possible for me to create them.
