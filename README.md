@@ -15,7 +15,7 @@ Ansible Role: PHP
 Requirements
 ------------
 
-It is recommended to first bootstrap the server using my bootstrap role ubzyhd.bootstrap
+Testing
 
 Role Variables
 --------------
