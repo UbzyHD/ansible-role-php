@@ -5,8 +5,5 @@
 - name: PHP | Setting Up Repository
   include_tasks: "2-repository.yml"
 
-- name: PHP | Installing PHP
+- name: PHP | Installing PHP + Modules
   include_tasks: "3-install.yml"
-
-- name: PHP | Installing PHP Modules
-  include_tasks: "4-php-modules.yml"

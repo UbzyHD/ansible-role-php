@@ -1,2 +1,37 @@
 ---
-# vars file for ansible-role-nginx
+# Variables for Debian
+
+php_version: "7.2"
+
+# Set to true if you plan to use Apache2 with PHP
+php_webserver: true
+
+php_modules_install:
+ - php{{ php_version }}-fpm
+ - php{{ php_version }}-bz2
+ - php{{ php_version }}-dev
+ - php{{ php_version }}-apcu
+ - php{{ php_version }}-redis
+ - php{{ php_version }}-ldap
+ - php{{ php_version }}-common
+ - php{{ php_version }}-gd
+ - php{{ php_version }}-mysql
+ - php{{ php_version }}-imap
+ - php{{ php_version }}-cli
+ - php{{ php_version }}-json
+ - php{{ php_version }}-gmp
+ - php{{ php_version }}-memcached
+ - php{{ php_version }}-cgi
+ - php{{ php_version }}-curl
+ - php{{ php_version }}-intl
+ - php{{ php_version }}-pspell
+ - php{{ php_version }}-recode
+ - php{{ php_version }}-tidy
+ - php{{ php_version }}-xml
+ - php{{ php_version }}-xmlrpc
+ - php{{ php_version }}-xsl
+ - php{{ php_version }}-zip
+ - php{{ php_version }}-mbstring
+ - php{{ php_version }}-soap
+ - php{{ php_version }}-opcache
+ - php-imagick

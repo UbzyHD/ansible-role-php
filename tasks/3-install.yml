@@ -7,3 +7,22 @@
     autoclean: true
     install-recommends: false
     state: present
+
+- name: php-modules.yml | Installing PHP Modules
+  apt:
+    name: "{{ php_modules_install }}"
+    update_cache: true
+    autoremove: true
+    autoclean: true
+    install-recommends: false
+    state: present
+
+- name: php-modules.yml | Installing Apache PHP Modules
+  apt:
+    name: libapache2-mod-php7.2
+    update_cache: true
+    autoremove: true
+    autoclean: true
+    install-recommends: false
+    state: present
+  when: php_webserver

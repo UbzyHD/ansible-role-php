@@ -4,7 +4,7 @@ dependencies: []
 galaxy_info:
   role_name: php
   author: ubzyhd
-  description: An Ansible role to install PHP
+  description: Ansible role to install PHP + PHP-FPM as well as any web counterparts
   company: Ubzy
 
   license: "license (BSD, MIT)"
