@@ -7,14 +7,14 @@
 ## Contents
 
 - [Ansible Role: PHP](#ansible-role-php)
-  - [Contents](#contents)
-  - [Role Info & Build Status](#role-info--build-status)
-  - [Supported OS's](#supported-oss)
-  - [Role Variables](#role-variables)
-  - [Example Playbook](#example-playbook)
-  - [License](#license)
-  - [Author Information](#author-information)
-  - [Credits](#credits)
+- [Contents](#contents)
+- [Role Info & Build Status](#role-info--build-status)
+- [Supported OS's](#supported-oss)
+- [Role Variables](#role-variables)
+- [Example Playbook](#example-playbook)
+- [License](#license)
+- [Author Information](#author-information)
+- [Credits](#credits)
 
 ## Role Info & Build Status
 
@@ -26,9 +26,10 @@
 
 ## Supported OS's
 
-- Debian:
-  - 10 - Buster
-  - 9 - Jessie
+Debian:
+
+- 10 - Buster
+- 9 - Jessie
 
 ## Role Variables
 
