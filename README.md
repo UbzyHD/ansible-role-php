@@ -11,37 +11,115 @@ Ansible Role: PHP
 
 ![](https://img.shields.io/badge/dynamic/json?label=Description&style=flat-square&query=description&url=https%3A%2F%2Fgalaxy.ansible.com%2Fapi%2Fv1%2Fcontent%2F42673%2F)
 
-
-Requirements
+Supported OS's
 ------------
 
-Testing
+* Debian:
+
+  - 10 - Buster
+  - 9 - Jessie
+
+
 
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+All variables for this role are listed below, along with default values located at ```defaults/main.yml```
 
-Dependencies
-------------
+If you do not specify a variable in your playbook then default values will be used.
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+```yaml
+php_version: "7.2"
+
+php_modules_install:
+ - php7.2-fpm
+ - libapache2-mod-php7.2
+ - php7.2-bz2
+ - php7.2-dev
+ - php7.2-apcu
+ - php7.2-redis
+ - php7.2-ldap
+ - php7.2-common
+ - php7.2-gd
+ - php7.2-mysql
+ - php7.2-imap
+ - php7.2-cli
+ - php7.2-json
+ - php-imagick
+ - php7.2-gmp
+ - php7.2-memcached
+ - php7.2-cgi
+ - php7.2-curl
+ - php7.2-intl
+ - php7.2-pspell
+ - php7.2-recode
+ - php7.2-tidy
+ - php7.2-xml
+ - php7.2-xmlrpc
+ - php7.2-xsl
+ - php7.2-zip
+ - php7.2-mbstring
+ - php7.2-soap
+ - php7.2-opcache
+```
+
+Add and remove PHP modules as neccessary depending on your needs and setup.
+
+
+> Note: At the bottom of 
+> ```defaults/main.yml``` there is a variable lined:
+>```yaml
+># DO NOT CHANGE
+>ci_build_testing: false
+>```
+> Do not modify this or refer to it in your playbooks as this is only used for CI/CD. You can safely ignore this.
 
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+An example playbook with all the variables can be found called ```example-playbook-php.yml```
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+or here:
+
+```yaml
+---
+- name: UbzyHD.PHP Example Playbook
+  hosts: all
+  order: sorted
+
+  gather_facts: true
+  any_errors_fatal: true
+
+  pre_tasks:
+
+    - name: UbzyHD.PHP Example Playbook | Pinging hosts.
+      action: ping
+
+    - name: UbzyHD.PHP Example Playbook | Install Python if not already present.
+      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+      changed_when: false
+
+    - name: UbzyHD.PHP Example Playbook | Gather facts after Python is definitely present.
+      setup:
+
+  roles:
+    - ubzyhd.php
+```
 
 License
 -------
 
-BSD
+MIT
 
 Author Information
 ------------------
+This role was creating by Ubzy in 2019
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Credits
+------------------
+Jeff Geerling:
+
+* [GitHub - geerlingguy](https://github.com/geerlingguy)
+* [Website - jeffgeerling.com](https://www.jeffgeerling.com/)
+
+>Without using his roles as the basis for mine, it wouldn't have been possible for me to create them.

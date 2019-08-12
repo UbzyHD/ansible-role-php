@@ -1,0 +1,22 @@
+---
+- name: UbzyHD.PHP Example Playbook
+  hosts: all
+  order: sorted
+
+  gather_facts: true
+  any_errors_fatal: true
+
+  pre_tasks:
+
+    - name: UbzyHD.PHP Example Playbook | Pinging hosts.
+      action: ping
+
+    - name: UbzyHD.PHP Example Playbook | Install Python if not already present.
+      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+      changed_when: false
+
+    - name: UbzyHD.PHP Example Playbook | Gather facts after Python is definitely present.
+      setup:
+
+  roles:
+    - ubzyhd.php
