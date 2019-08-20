@@ -10,14 +10,14 @@
 ## Contents
 
 - [Ansible Role: PHP](#ansible-role-php)
-- [Contents](#contents)
-- [Role Info & Build Status](#role-info--build-status)
-- [Supported OS's](#supported-oss)
-- [Role Variables](#role-variables)
-- [Example Playbook](#example-playbook)
-- [License](#license)
-- [Author Information](#author-information)
-- [Credits](#credits)
+  - [Contents](#contents)
+  - [Role Info & Build Status](#role-info--build-status)
+  - [Supported OS's](#supported-oss)
+  - [Role Variables](#role-variables)
+  - [Example Playbook](#example-playbook)
+  - [License](#license)
+  - [Author Information](#author-information)
+  - [Credits](#credits)
 
 ## Role Info & Build Status
 
@@ -38,7 +38,7 @@ Debian:
 
 All variables for this role are listed below, along with default values located at ```defaults/main.yml```
 
-If you do not specify a variable in your playbook then default values will be used.
+If you do not specify a variable in your playbook then default values listed below will be used.
 
 ```yaml
 php_version: "7.2"
@@ -122,7 +122,7 @@ MIT
 
 ## Author Information
 
-This role was creating by Ubzy in 2019
+This role was created by Ubzy
 
 ## Credits
 
