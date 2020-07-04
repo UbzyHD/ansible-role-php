@@ -31,6 +31,7 @@
 
 Debian:
 
+- 11 - Bullseye
 - 10 - Buster
 - 9 - Jessie
 
